@@ -6,10 +6,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/aldi', function () {
+
 Route::get('/fau', function () {
     return view('fau');
 });
 
 Route::get('/wulan', function () {
+
     return view('welcome');
 });

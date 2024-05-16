@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/aldi', function () {
-    return view('welcome aldi');
+    return view('welcome');
 });
